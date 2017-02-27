@@ -37,7 +37,7 @@ function about(){
 	document.getElementById("first_div_content").style.transform="translate(0px,0px)";
 	document.getElementById("second_div_content").style.transform="translate(0px,-1962px)";
 }
-function intrests(){
+function interests(){
 	document.getElementById("first_div_content").style.transform="translate(0px,-654px)";
 	document.getElementById("second_div_content").style.transform="translate(0px,-1308px)";
 }
