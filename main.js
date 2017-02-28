@@ -12,40 +12,40 @@ $(document).on('mousewheel',function (evt) {
 	}
 	switch(index){
 		case 1:{
-					$("#first_div_content").css({"transform":"translate(0px,0px)"});
-					$("#second_div_content").css({"transform":"translate(0px,-1962px)"});
+					$("#first_div_content").css({"transform":"translate(0,0)"});
+					$("#second_div_content").css({"transform":"translate(0,-300%)"});
 					break;
 				}
 		case 25:{
-					$("#first_div_content").css({"transform":"translate(0px,-654px)"});
-					$("#second_div_content").css({"transform":"translate(0px,-1308px)"});
+					$("#first_div_content").css({"transform":"translate(0,-100%)"});
+					$("#second_div_content").css({"transform":"translate(0,-200%)"});
 					break;
 				}
 		case 50:{
-					$("#first_div_content").css({"transform":"translate(0px,-1308px)"});
-					$("#second_div_content").css({"transform":"translate(0px,-654px)"});
+					$("#first_div_content").css({"transform":"translate(0,-200%)"});
+					$("#second_div_content").css({"transform":"translate(0,-100%)"});
 					break;
 				}
 		case 75:{
-					$("#first_div_content").css({"transform":"translate(0px,-1962px)"});
-					$("#second_div_content").css({"transform":"translate(0px,0px)"});
+					$("#first_div_content").css({"transform":"translate(0,-300%)"});
+					$("#second_div_content").css({"transform":"translate(0,0)"});
 					break;
 				}		
 	}
 });
 function about(){
-	document.getElementById("first_div_content").style.transform="translate(0px,0px)";
-	document.getElementById("second_div_content").style.transform="translate(0px,-1962px)";
+	document.getElementById("first_div_content").style.transform="translate(0,0)";
+	document.getElementById("second_div_content").style.transform="translate(0,-300%)";
 }
 function interests(){
-	document.getElementById("first_div_content").style.transform="translate(0px,-654px)";
-	document.getElementById("second_div_content").style.transform="translate(0px,-1308px)";
+	document.getElementById("first_div_content").style.transform="translate(0,-100%)";
+	document.getElementById("second_div_content").style.transform="translate(0,-200%)";
 }
 function work(){
-	document.getElementById("first_div_content").style.transform="translate(0px,-1308px)";
-	document.getElementById("second_div_content").style.transform="translate(0px,-654px)";	
+	document.getElementById("first_div_content").style.transform="translate(0,-200%)";
+	document.getElementById("second_div_content").style.transform="translate(0,-100%)";	
 }
 function contact(){
-	document.getElementById("first_div_content").style.transform="translate(0px,-1962px)";
-	document.getElementById("second_div_content").style.transform="translate(0px,0px)";
+	document.getElementById("first_div_content").style.transform="translate(0,-300%)";
+	document.getElementById("second_div_content").style.transform="translate(0,0)";
 }
